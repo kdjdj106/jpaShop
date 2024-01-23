@@ -65,6 +65,7 @@ public class OrderSimpleApiController {
        return orderRepository.findOrderDtos();
     }
 
+
     @Data
     static class SimpleOrderDto {
         private Long orderId;
